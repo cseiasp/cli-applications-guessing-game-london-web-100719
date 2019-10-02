@@ -8,9 +8,10 @@ def run_guessing_game
     puts "Goodbye!"
   else if guess > 6
     puts "Please choose a number between 1 and 6 dumbass"
-    guess = gets.chomp
+    run_guessing_game
   else
     puts "Sorry! The computer guessed #{number}."
   end
   end
+end
 end
