@@ -8,7 +8,7 @@ def run_guessing_game
     puts "You guessed the correct number!"
   else if guess == "exit"
     puts "Goodbye!"
-  else if guess > 6
+  else if guess > "6"
     puts "Please choose a number between 1 and 6 dumbass"
     run_guessing_game
   else
